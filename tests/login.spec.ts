@@ -6,6 +6,5 @@ test('valid user should login successfully', async ({ page }) => {
 
     await loginPage.navigateTo();
     await loginPage.login('standard_user', 'secret_sauce')
-    const title = await loginPage.getTitle();
-    expect(title).toBe('Swag Labs');
+    expect(await loginPage.getTitle()).toBe('Swag Labs');
 });
