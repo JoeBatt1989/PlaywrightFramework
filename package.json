@@ -1,0 +1,28 @@
+{
+  "name": "playwrightframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.9.0"
+  },
+  "scripts": {
+    "test-headless": "npx playwright test",
+    "test-ui": "npx playwright test --headed",
+    "test-debug": "npx playwright test --ui"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeBatt1989/PlaywrightFramework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoeBatt1989/PlaywrightFramework/issues"
+  },
+  "homepage": "https://github.com/JoeBatt1989/PlaywrightFramework#readme"
+}
